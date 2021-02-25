@@ -1,0 +1,88 @@
+/* Be sure to create a styles directory and put this file in there */
+/* @import "tips.css"; */
+
+body {
+	background-color: antiquewhite;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	background-color: aqua
+}
+
+header h1 {
+	line-height: 1em;
+	color: darkblue;
+	text-align: left;
+	padding: 0 2em;
+	font-size: 1.5em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+	overflow: hidden;
+	background-color: rgb(100, 128, 128);
+	display: flex;
+	justify-content: flex-end;
+  }
+
+nav li {
+	display: inline;
+	margin: 0 1em;
+  }
+
+nav a {
+	color: white;
+}
+
+nav a:hover {
+	color: lightsalmon;
+}
+nav a:active {
+	color: lightgreen;
+}
+
+.fishTank {
+	margin: 1em 0;
+	display: flex;
+}
+
+.fishList{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.fish-card {
+	background-color: lightcyan;
+	margin: .5em;
+	max-width: 200px;
+}
+
+.fish-card ul {
+	list-style-type:none;
+	padding: .5em;
+	margin: .2em;
+	font-size: .8em;
+}
+
+.fish-image {
+	width: 100%;
+	height: auto;
+}
+
+.section-main {
+	margin: 1em;
+}
+
+footer {
+	background-color: darkcyan;
+	color: whitesmoke;
+	text-align: center;
+}
