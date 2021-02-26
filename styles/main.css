@@ -1,8 +1,12 @@
 /* Be sure to create a styles directory and put this file in there */
 /* @import "tips.css"; */
 
-body {
-	background-color: antiquewhite;
+
+/* Rule or Rule Set - Selector followed by a declaration block */
+
+body /* selector */{
+    /* declaration block */
+	background-color /* property name */: antiquewhite /* value */;
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 }
